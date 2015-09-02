@@ -7,12 +7,40 @@
 .signup-label {
 	margin: 15px 0px 15px 5px;
 	width: 60%;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
 }
 .signup-city {
 	margin: 15px 10px 15px 5px;
-	width: 50%;
+	width: 45%;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
 }
 .signup-state {
 	margin: 15px 0px 15px 5px;
-	width: 8%
+	width: 5%;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+
+}
+.checkbox {
+	padding-left:150px;
+}
+.submit {
+	margin-left: 150px;
+	margin-top: 15px;
+	width: 300px;
+}
+.submit-in {
+	width: 300px;
+	background-color:lightgray;
+	border-radius: 5px;
+}
+body {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.signup span{
+	padding-right: 50px;
+	
 }

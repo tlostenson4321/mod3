@@ -78,29 +78,33 @@ body {
 	color:red;
 }
 .search {
-	width: 700px;
+	width: 100%;
 	padding:20px;
 	margin:0;
 	background-color: lightgrey;
 	height: 30px;
 	border-radius: 20px;
 	position: relative;
+	line-height: 30px;
 }
 .search-left{
 	position: absolute;
-	width: 80px;
 	height:65%;
 	font-size: 15px;
 }
 .search-middle {
 	margin-left: 50px;
-	width:80%;
 	height: 65%;
-	borde
+	border-radius: 5px;
+	width:75%;
 }
 .search-right {
 	position:absolute;
 	right:10%;
-	bottom:45%;
-
+	bottom:35%;
+	color: white;
+	background-color: #ff4d4d;
+	border-radius: 5px;
+	width: 80px;
+	opacity:.8;
 }

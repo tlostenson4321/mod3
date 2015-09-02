@@ -1,1 +1,10 @@
 /* ADD YOUR STYLES HERE */
+
+.signup {
+	width: 500px;
+	text-align:right;
+}
+.signup-label {
+	margin: 15px 0px 15px 5px;
+	width: 60%;
+}

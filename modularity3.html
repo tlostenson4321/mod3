@@ -79,20 +79,20 @@
           <p class="instruction-text">Create styles for validated inputs and validation messages.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
-              <div class="signup">
-                <label>First Name</label>
-                <input type="text" name="firstName" value="Pascal">
-                <span class="is-valid">✓</span>
+            <form class="forms">
+              <div class="forms">
+                <label class="form-val">First Name</label>
+                <input type="text" name="firstName" value="Pascal" class="form-inputone">
+                <span class="is-valid form-spanone">✓</span>
               </div>
-              <div class="signup">
-                <label>Last Name</label>
-                <input type="text" name="lastName">
+              <div class="forms">
+                <label class="form-val">Last Name</label>
+                <input type="text" name="lastName" class="form-inputtwo">
               </div>
-              <div class="signup">
-                <label>Email</label>
-                <input type="email" name="email" value="myemail@something">
-                <span class="is-invalid">Please enter a valid value.</span>
+              <div class="forms">
+                <label class="form-val">Email</label>
+                <input type="email" name="email" value="myemail@something" class="form-inputthree">
+                <span class="is-invalid form-spantwo">Please enter a valid value.</span>
               </div>
             </form>
             <!-- End editable area -->

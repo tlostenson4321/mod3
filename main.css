@@ -12,7 +12,7 @@
 }
 .signup-city {
 	margin: 15px 10px 15px 5px;
-	width: 45%;
+	width: 43%;
 	border-radius: 5px;
 	border: 1px solid lightgrey;
 }
@@ -39,8 +39,41 @@
 body {
 	font-size: 14px;
 	font-family: sans-serif;
+	box-sizing: border-box;
 }
-.signup span{
-	padding-right: 50px;
-	
+
+.forms{
+	width:600px;
+	box-sizing: border-box;
+}
+.form-val {
+	width:20%;
+	display: inline-block;
+}
+.form-inputtwo{
+	margin: 15px 10px 15px 0px;
+	width: 43%;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+.form-inputone{
+	margin: 15px 10px 15px 0px;
+	width: 43%;
+	border-radius: 5px;
+	border: 3px groove lightgreen;
+}
+.form-inputthree{
+	margin: 15px 10px 15px 0px;
+	width: 43%;
+	border-radius: 5px;
+	border: 3px groove pink;
+}
+
+.form-spanone {
+	width:15%;
+	color:green;
+}
+.form-spantwo {
+	width:15%;
+	color:red;
 }

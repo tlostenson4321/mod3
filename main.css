@@ -8,3 +8,11 @@
 	margin: 15px 0px 15px 5px;
 	width: 60%;
 }
+.signup-city {
+	margin: 15px 10px 15px 5px;
+	width: 50%;
+}
+.signup-state {
+	margin: 15px 0px 15px 5px;
+	width: 8%
+}

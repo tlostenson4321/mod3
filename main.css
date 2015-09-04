@@ -135,3 +135,7 @@ body {
 .omni input {
 	border:none;
 }
+.chunk {
+	box-sizing:border-box;
+	
+}
